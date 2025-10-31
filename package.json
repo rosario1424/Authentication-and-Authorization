@@ -1,0 +1,24 @@
+{
+  "name": "auth-and-authorization",
+  "version": "1.0.0",
+  "description": "Implement user authentication and authorization using Bearer tokens in a Node.js application with Express.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosario1424/Authentication-and-Authorization.git"
+  },
+  "keywords": [
+    "user",
+    "name",
+    "password"
+  ],
+  "author": "Divia Rozario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosario1424/Authentication-and-Authorization/issues"
+  },
+  "homepage": "https://github.com/rosario1424/Authentication-and-Authorization#readme"
+}
