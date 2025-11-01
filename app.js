@@ -1,11 +1,10 @@
 // import express module
 const express=require('express');
+const authRouter = require('./routes/authRoutes');
 
 // create an express application
 const app = express();
 
-app.get('/authenticate', (req, res) => {
-    res.json({ message: 'Get all user information'});
-});
+app.use('/', authRouter);
 
 module.exports = app;
